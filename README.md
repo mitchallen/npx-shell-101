@@ -46,3 +46,13 @@ npm start
 * The shell script is referenced in **package.json** as a **bin**.
 * The script was made executable via `chmod +x bin/run.sh`
 * Because the package is ***not*** published, it needs to be run using the format: `npx github:username/repo`
+
+* * *
+
+## gist example
+
+* See: https://gist.github.com/mitchallen/21b1ec7256fb8dab4e8b05744d280df8 
+
+```sh
+curl -fsSL https://gist.githubusercontent.com/mitchallen/21b1ec7256fb8dab4e8b05744d280df8/raw/run.sh | sh
+```
