@@ -56,3 +56,42 @@ npm start
 ```sh
 curl -fsSL https://gist.githubusercontent.com/mitchallen/21b1ec7256fb8dab4e8b05744d280df8/raw/run.sh | sh
 ```
+
+## Passing a Name as an Argument
+
+You can pass a name as an argument to greet a specific user. Here are examples for each method:
+
+### Using npx
+
+```sh
+npx github:mitchallen/npx-shell-101 Alice
+```
+**Output:**
+```
+Hello, Alice!
+```
+
+### Using npm start
+
+```sh
+npm start -- Alice
+```
+**Output:**
+```
+Hello, Alice!
+```
+
+### Running the script directly
+
+```sh
+./bin/run.sh Alice
+```
+**Output:**
+```
+Hello, Alice!
+```
+
+If you do not pass an argument, the script will display:
+```
+Hello from a shell script!
+```
