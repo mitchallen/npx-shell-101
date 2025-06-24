@@ -9,6 +9,24 @@ npx-shell-101
 npx github:mitchallen/npx-shell-101
 ```
 
+When you run this for the first time on a machine, it will ask for permission to install:
+
+```sh
+npx github:mitchallen/npx-shell-101
+Need to install the following packages:
+github:mitchallen/npx-shell-101
+Ok to proceed? (y) y
+
+Hello from a shell script!
+```
+
+After that it will just run, unless there was an update:
+
+```sh
+npx github:mitchallen/npx-shell-101
+Hello from a shell script!
+```
+
 ### To run locallly via npm
 
 ```sh
