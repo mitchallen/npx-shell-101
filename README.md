@@ -63,6 +63,12 @@ You can pass a name as an argument to greet a specific user. Here are examples f
 
 ### Using npx
 
+To skip the install confirmation prompt, add the `--yes` (or `-y`) flag:
+
+```sh
+npx --yes github:mitchallen/npx-shell-101 Alice
+```
+Or, without the flag (will prompt on first run):
 ```sh
 npx github:mitchallen/npx-shell-101 Alice
 ```
