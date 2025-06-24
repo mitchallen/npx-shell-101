@@ -1,0 +1,10 @@
+{
+  "name": "npx-shell-101",
+  "version": "1.0.0",
+  "bin": {
+    "mysh": "./bin/run.sh"
+  },
+  "scripts": {
+    "start": "sh ./bin/run.sh"
+  }
+}
