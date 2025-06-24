@@ -5,6 +5,13 @@ npx-shell-101
 
 ### To run from the repo using npx
 
+To skip the install confirmation prompt, add the `--yes` (or `-y`) flag:
+
+```sh
+npx --yes github:mitchallen/npx-shell-101
+```
+Or, without the flag (will prompt on first run):
+
 ```sh
 npx github:mitchallen/npx-shell-101
 ```
