@@ -1,6 +1,9 @@
 npx-shell-101
 ==
 
+[![ko-fi](https://img.shields.io/badge/Ko--fi-Donate-blue?logo=ko-fi)](https://ko-fi.com/mitchallen)
+[![buymeacoffee](https://img.shields.io/badge/Buy%20Me%20A%20Coffee-Donate-yellow?logo=buy-me-a-coffee)](https://www.buymeacoffee.com/mitchallen)
+
 ## Usage
 
 ### To run from the repo using npx
